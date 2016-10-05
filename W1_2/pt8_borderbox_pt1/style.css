@@ -1,0 +1,10 @@
+div {
+  width: 440px;
+  height: 180px;
+  padding: 5px;
+  padding-left: 20px;
+  margin-right: 20px;
+  background: rgb(255, 155, 55);
+}
+
+*{box-sizing: border-box}

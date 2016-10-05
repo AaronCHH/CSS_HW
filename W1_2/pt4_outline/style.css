@@ -1,0 +1,14 @@
+div.outline1 {
+  background-color: #D4D4F8;
+  width: 300px;
+  height: 150px;
+  border: 2px solid green;
+}
+div.outline2 {
+  background-color: #D4D4F8;
+  width: 300px;
+  height: 150px;
+  border: 2px solid green;
+  /*  -----  */
+  outline: #FA8000 dashed 5px;
+}

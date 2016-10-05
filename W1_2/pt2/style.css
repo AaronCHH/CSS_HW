@@ -1,0 +1,27 @@
+p {
+  width: 200px;
+}
+p.doTed {
+  border-style: doTed
+}
+p.dashed {
+  border-style: dashed
+}
+p.solid {
+  border-style: solid
+}
+p.double {
+  border-style: double
+}
+p.groove {
+  border-style: groove
+}
+p.ridge {
+  border-style: ridge
+}
+p.inset {
+  border-style: inset
+}
+p.outset {
+  border-style: outset
+}
