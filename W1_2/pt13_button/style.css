@@ -1,0 +1,44 @@
+.botton1 {
+  padding: 6px 16px;
+  border: 1px solid navy;
+  background: #58a;
+  border-radius: 8px;
+  box-shadow: 0 5px 10px gray;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  /* ---- */
+  /*
+  width: 150px;
+  line-height: 30px;
+*/
+}
+.botton2 {
+  padding: 6px 16px;
+  border: 1px solid navy;
+  background: #58a;
+  border-radius: 8px;
+  box-shadow: 0 5px 10px gray;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  /* ---- */
+  width: 150px;
+  line-height: 30px;
+}
+
+/* enlarge */
+
+.botton3 {
+  padding: .3em .8em;
+  border: 1px solid navy;
+  background: #58a;
+  border-radius: 8px;
+  box-shadow: 0 .25em .5em gray;
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  /* ---- */
+  width: 7.5em;
+  line-height: 1.5em;
+}
