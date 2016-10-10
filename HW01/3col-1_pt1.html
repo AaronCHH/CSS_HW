@@ -3,8 +3,12 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>3欄式版面範例</title>
-  <link rel="stylesheet" href="style1.css" media="all">
+  <title>3欄式版面範例</title>  
+  <!-- basic frame -->
+  <link rel="stylesheet" href="style1.css" media="all">  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.css">
+  <!--  web font-->
   <style>
     @font-face {
       font-family: Gentium;
@@ -13,6 +17,7 @@
     
     @import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
     @import url(https://fonts.googleapis.com/css?family=Oswald:700);
+
   </style>
 </head>
 
@@ -28,14 +33,17 @@
     <div id="cont1">
       <div style="height: 180px; margin: 0 auto; width: 100%; background: green">
         <div class="title" style="text-align: center; line-height: 3em; color:white; font-family: 'Oswald';font-size: 1.3em">FREE PLAN</div>
-        <div class="price" style="text-align: center; line-height: 1em; color:white; font-size: 2.5em">0</div>
-        <div class="botton3">PPRP</div>
+        <div class="price"></div>
+        <sup style="color:white">$</sup> <span style="text-align: center; line-height: 1em; color:white; font-size: 2.5em">0</span> <span>/Mo.</span>
+        <div class="botton3">And Get Free Month</div>
       </div>
       <div style="height: 180px; margin: 0 auto; width: 100%; background: white">
-        <div class="desp" style="text-align: center; line-height: 2em; color:gray">lorem</div>
-        <div class="desp" style="text-align: center; line-height: 2em; color:gray">lorem</div>
-        <div class="desp" style="text-align: center; line-height: 2em; color:gray">lorem</div>
-        <div class="desp" style="text-align: center; line-height: 2em; color:gray">lorem</div>
+        <div class="desp-box" style="width: 200px; margin-left: 80px;">          
+          <div class="desp" style="text-align: left; line-height: 2em; color:gray">1,000 messages</div>
+          <div class="desp" style="text-align: left; line-height: 2em; color:gray">limited data</div>
+          <div class="desp" style="text-align: left; line-height: 2em; color:gray">limited users</div>
+          <div class="desp" style="text-align: left; line-height: 2em; color:gray">first 10 day free</div>
+        </div>
       </div>
 
     </div>

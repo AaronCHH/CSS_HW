@@ -1,59 +1,91 @@
 @charset "UTF-8";
+
 /* CSS Document */
 
-*{
-		margin:0;
-		padding:0;
+* {
+  margin: 0;
+  padding: 0;
 }
-
-#wrap{
-		width:940px;
-		margin:30px auto;
-		/*background-color:#ccc;*/
+#wrap {
+  width: 980px;
+  margin: 30px auto;
+  /*background-color:#ccc;*/
 }
-
-#header{
-		/*background-color:#f00;*/
-		height: 200px;
+#header {
+  /*background-color:#f00;*/
+  height: 200px;
 }
-
-#cont1{
-	background-color:#ff0;
-	width:300px;
-	float:left;
-	margin-right:20px;
+#cont1 {
+  background-color: #ff0;
+  width: 300px;
+  float: left;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 50px;
 }
-
-#cont2{
-	background-color:#0f0;
-	width:300px;
-	float:left;
-	margin-right:20px;
+#cont2 {
+  background-color: #0f0;
+  width: 300px;
+  float: left;
+  margin-right: 20px;
+  margin-top: 50px;
 }
-
-#cont3{
-	background-color:#00f;
-	width:300px;
-	float:left;
+#cont3 {
+  background-color: #00f;
+  width: 300px;
+  float: left;
+  margin-top: 50px;
 }
-
-#footer{
-	/*background-color:#f0f;*/
-	clear:both;
+#footer {
+  /*background-color:#f0f;*/
+  clear: both;
 }
-
-
+.title {
+  text-align: center;
+  line-height: 3em;
+  color: white;
+  font-family: 'Oswald';
+  font-size: 1.3em;
+}
+.price {
+  text-align: center;
+  line-height: 1.4em;
+  color: white;
+  font-size: 2.5em;
+}
 .botton3 {
   padding: .3em .8em;
-  border: 1px solid navy;
-  background: #58a;
-  border-radius: 8px;
-/*  box-shadow: 0 .25em .5em gray;*/
-  color: #fff;
-  font-size: 16px;
+  border: 1.7px solid white;
+  /*  background: #58a;*/
+  border-radius: 5px;
+  /*  box-shadow: 0 .25em .5em gray;*/
+  color: white;
+  font-size: 14px;
   text-align: center;
   /* ---- */
-  width: 7.5em;
+  width: 10em;
+  margin: .5em auto;
   line-height: 1.5em;
-  float: 0 auto;  
+}
+.cont-upper {
+  height: 190px;
+  margin: 0 auto;
+  width: 100%;
+  background: #34495e;
+}
+.cont-lower {
+  height: 190px;
+  margin: 0 auto;
+  width: 100%;
+  background: white;
+}
+.desp-box {
+  width: 170px;
+  margin-left: 80px;
+  font-size: 14px
+}
+.dsp-cont {
+  text-align: left;
+  line-height: 2.4em;
+  color: gray;
 }
