@@ -15,6 +15,11 @@
   /*background-color:#f00;*/
   height: 200px;
 }
+#main {
+  background-image: url(img/bg.jpg);
+  height: 500px;
+  font-family: Oswald;
+}
 #cont1 {
   background-color: #ff0;
   width: 300px;
@@ -83,9 +88,11 @@
   width: 170px;
   margin-left: 80px;
   font-size: 14px
-}
-.dsp-cont {
   text-align: left;
   line-height: 2.4em;
   color: gray;
+
+}
+.dsp-cont {
+    font-family: Oswald;
 }
