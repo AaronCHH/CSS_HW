@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+    .box{
+    width: 400px;
+    height: 100px;
+    background: #eee;
+    margin: 10px 0;
+    /*text-align: center;*/
+    }
+    .inline-block{
+    display: inline-block;
+    }
+    .inline, .block, .inline-block{
+    background: gold;
+    }
+    body{
+    background: #bdc2c4;
+    }
+    .block{
+    width: 250px;
+/*     margin-left: auto;*/
+    /* margin-right: auto;*/
+    }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <span class="inline">顯示為 inline</span>
+    </div>
+    <div class="box">
+      <div class="block">顯示為 block</div>
+    </div>
+    <div class="box">
+      <div class="inline-block">顯示為 inline-block</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    .align-content {
+      display: inline-flex;
+      flex-wrap: wrap;
+      width: 350px;
+      height: 250px;
+      margin: 5px;
+      border: 1px solid #000;
+      vertical-align: top;
+    }
+    
+    .flex-item {
+      width: 100px;
+      height: 100px;
+    }
+    
+    .flex-start {
+      align-content: flex-start;
+    }
+    
+    .item1{
+      order:-3;
+    }
+    .item2{
+      order:-2;
+    }
+    .item3{
+      order:-1;
+    }
+    .item6{
+      order:2;
+    }
+    .item5{
+      order:1;
+    }
+    
+  </style>
+</head>
+
+<body>
+
+  <link rel="stylesheet" href="https://kevinljw.github.io/pic-pool/flexbox-ex.css">
+  <div class="col flex-start align-content">
+    <div class="flex-item item4">4</div>
+    <div class="flex-item item6">6</div>
+    <div class="flex-item item1">1</div>
+    <div class="flex-item item3">3</div>
+    <div class="flex-item item5">5</div>
+    <div class="flex-item item2">2</div>
+  </div>
+
+</body>
+
+</html>

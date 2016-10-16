@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    body {
+      background: gold;
+    }
+    
+    .main {
+      background: #673b3b;
+      color: white;
+      text-align: center;
+    }
+    /*Method #1 - absolute: all*/
+    
+    .main {
+      width: 18em;
+      height: 7em;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-top: -3.5em;
+      margin-left: -9em;
+    }
+    /*Method #2 - absolute: remove margin*/
+    /* .main{
+    position: absolute;
+    top: calc(50% - 3em);
+    left: calc(50% - 9em);  
+    width:18em;
+    height:6em;
+} */
+    /*Method #3 - absolute: remove width & height*/
+    /* .main{
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%,-50%);
+}
+ */
+  </style>
+
+</head>
+
+<body>
+  <div class="main">
+    <h1>垂直置中練習</h1>
+    <p>解法一: 絕對定位</p>
+  </div>
+</body>
+
+</html>

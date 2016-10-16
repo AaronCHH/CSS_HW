@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    @keyframes pulse {
+      0% {
+        transform: scale(0.9);
+      }
+      50% {
+        transform: scale(1.5);
+      }
+      100% {
+        transform: scale(0.9);
+      }
+    }
+    
+    .box {
+      width: 100px;
+      height: 100px;
+      background: gold;
+      border-radius: 10%;
+      margin: 30vh auto 0;
+    }
+    .box{
+      animation: 1s 0s pulse ease infinite;
+/*      animation: 1s 0s pulse cubic-bezier(.47,.05,.82,.37) infinite;*/
+/*
+      animation-name: pulse;
+      animation-iteration-count: infinite;
+*/
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box">
+
+  </div>
+</body>
+
+</html>

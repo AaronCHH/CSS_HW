@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+    .static {
+    /* position: static; */
+    height: 500px;
+    background: lightblue;
+    }
+    .absolute {
+    position: absolute;
+    /* position: fixed; */
+    background: lightgreen;
+    top: 120px;
+    /* left:100px; */
+    right: 50px;
+    /* right: 100px; */
+    /* right: 200px; */
+    /* right: 400px; */
+    /* overflow: auto; */
+    /* width: 300px; */
+    height: 200px;
+    }
+    
+    </style>
+  </head>
+  <body>
+    <div class="static"> 我是 position: static 元素。儘管不宣告我的存在(position: static)，我依然會是預設值。</div>
+    <div class="absolute">
+      我是 position: absolute 元素，只要對我定位，我就會以上層容器(父層)作為相對位置來改變位置。不管如何，我都不會影響到原本其他元素所在的位置。
+    </div>
+  </body>
+</html>

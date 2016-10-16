@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    .playground {
+      float: left;
+      width: 400px;
+      border: 2px solid green;
+      background: lightgreen;
+    }
+    
+    .playground>span {
+      position: absolute;
+      display: block;
+      width: 106px;
+      height: 250;
+      animation: linemove 5s infinite linear;
+    }
+    
+    div {
+      width: 100px;
+      height: 50px;
+      border-radius: 2px;
+      background: rgba(0, 0, 0, .2);
+      color: white;
+      line-height: 50px;
+      text-align: center;
+      font-weight: bold;
+      position: relative;
+      animation: mymove 5s infinite;
+    }
+    
+    #div1 {
+      animation-timing-function: linear;
+    }
+    
+    #div2 {
+      animation-timing-function: ease;
+    }
+    
+    #div3 {
+      animation-timing-function: ease-in;
+    }
+    
+    #div4 {
+      animation-timing-function: ease-out;
+    }
+    
+    #div5 {
+      animation-timing-function: ease-in-out;
+    }
+    
+    @keyframes mymove {
+      from {
+        left: 0px;
+      }
+      50% {
+        left: 300px;
+      }
+      to {
+        left: 0px;
+      }
+    }
+    
+    @keyframes linemove {
+      from {
+        left: 5;
+        border-right: 4px solid rgba(255, 255, 255, .5);
+        border-left: 0px solid rgba(255, 255, 255, .5);
+      }
+      49% {
+        border-right: 4px solid rgba(255, 255, 255, .5);
+        border-left: 0px solid rgba(255, 255, 255, .5);
+      }
+      50% {
+        left: 305px;
+      }
+      51% {
+        border-right: 0px solid rgba(255, 255, 255, .5);
+        border-left: 4px solid rgba(255, 255, 255, .5);
+      }
+      99% {
+        border-right: 0px solid rgba(255, 255, 255, .5);
+        border-left: 4px solid rgba(255, 255, 255, .5);
+      }
+      to {
+        left: 5;
+        border-left: 0px solid rgba(255, 255, 255, .5);
+        border-right: 0px solid rgba(255, 255, 255, .5);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <section class="playground">
+    <span></span>
+    <div id="div1">linear</div>
+    <div id="div2">ease</div>
+    <div id="div3">ease-in</div>
+    <div id="div4">ease-out</div>
+    <div id="div5">ease-in-out</div>
+    </div>
+
+</body>
+
+</html>
