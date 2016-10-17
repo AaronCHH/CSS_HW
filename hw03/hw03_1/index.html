@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    .bar-group {
+      background: #eee;
+      height: 100px;
+      padding: 10px;
+    }
+    
+    div.bar {
+      width: 30px;
+      height: 30px;
+      background-color: gold;
+      margin-bottom: 5px;
+      transition: 1s width, 1s background;
+    }
+    
+    div.bar.item1:hover {
+      width: 200px;
+      background: red;
+      transition: 1s width, 1s background;
+    }
+    
+    div.bar.item2:hover {
+      width: 200px;
+      background: red;
+      transition: 1s width, 1s background;
+    }
+    
+    div.bar.item3:hover {
+      width: 200px;
+      transition: 1s width, 1s background;
+      background: red;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="bar-group">
+    <div class="bar item1">
+    </div>
+    <div class="bar item2">
+    </div>
+    <div class="bar item3">
+    </div>
+  </div>
+</body>
+
+</html>
