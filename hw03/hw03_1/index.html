@@ -5,49 +5,35 @@
   <meta charset="UTF-8">
   <title>Document</title>
   <style>
-    .bar-group {
-      background: #eee;
-      height: 100px;
-      padding: 10px;
+    body {
+      background-color: orange;
     }
     
-    div.bar {
-      width: 30px;
-      height: 30px;
-      background-color: gold;
-      margin-bottom: 5px;
-      transition: 1s width, 1s background;
+    @keyframes rotate-plane {
+      0% {
+        transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+      }
+      50% {
+        transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+      }
+      100% {
+        transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+      }
     }
     
-    div.bar.item1:hover {
-      width: 200px;
-      background: red;
-      transition: 1s width, 1s background;
-    }
-    
-    div.bar.item2:hover {
-      width: 200px;
-      background: red;
-      transition: 1s width, 1s background;
-    }
-    
-    div.bar.item3:hover {
-      width: 200px;
-      transition: 1s width, 1s background;
-      background: red;
+    .spinner {
+      width: 60px;
+      height: 60px;
+      background-color: #fff;
+      margin: 40vh auto;
+      animation: rotate-plane 1.2s infinite ease-in-out;
     }
   </style>
 </head>
 
 <body>
-  <div class="bar-group">
-    <div class="bar item1">
-    </div>
-    <div class="bar item2">
-    </div>
-    <div class="bar item3">
-    </div>
-  </div>
+  <div class="spinner"></div>
+
 </body>
 
 </html>
